@@ -1,0 +1,11 @@
+query allAvailablePets {
+    allAvailablePets {
+        id
+        name
+        weight
+        status
+        photo {
+            thumb
+        }
+    }
+}
