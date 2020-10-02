@@ -1,12 +1,14 @@
 import React from "react"
 
-import {List} from "./list"
+// import {List} from "./list"
+import {CreateAccount} from "./createAccount";
 
 export const Customers = () => {
 
   return (
     <>
-      <List/>
+      <CreateAccount/>
+      {/*<List/>*/}
     </>
   )
 }
