@@ -19,18 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a09bc600-9525-430d-ac57-45b290c4f14c" name="Default Changelist" comment="Test">
-      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/Customer/createAccount.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/Customer/hooks/useMutationCreateAccount/gql/mutationCreateAccount.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/Customer/hooks/useMutationCreateAccount/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/hooks/useQueryProfile/gql/queryPetById.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/hooks/useQueryProfile/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a09bc600-9525-430d-ac57-45b290c4f14c" name="Default Changelist" comment="Делаю 5-ый урок">
+      <change afterPath="$PROJECT_DIR$/schema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/bus/Customer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/bus/Customer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/bus/pet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/bus/pet/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/bus/Customer/createAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/bus/Customer/createAccount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/bus/Customer/hooks/useMutationCreateAccount/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/bus/Customer/hooks/useMutationCreateAccount/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601544799380</updated>
       <workItem from="1601544800923" duration="14517000" />
-      <workItem from="1601634366485" duration="9168000" />
+      <workItem from="1601634366485" duration="9532000" />
+      <workItem from="1601900186685" duration="4506000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1601561636473</created>
@@ -90,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601561636473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Делаю 5-ый урок">
+      <created>1601643908876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601643908876</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,9 +114,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Делаю 5-ый урок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Делаю 5-ый урок" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="715" y="344" key="#Notifications" timestamp="1601900211833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="344" key="#Notifications/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1601900211833" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601634677878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -125,10 +134,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1601551911768" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601561640696">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601643915155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1601561640696" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1601643915155" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601634377891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

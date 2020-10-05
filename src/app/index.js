@@ -6,7 +6,7 @@ import {ApolloProvider} from '@apollo/react-hooks'
 import {client} from './init/client'
 
 // Component
-import {Pet} from './bus/pet'
+// import {Pet} from './bus/pet'
 import {Customers} from "./bus/Customer";
 
 
@@ -16,7 +16,7 @@ export const App = () => {
   return (
     <ApolloProvider client={client}>
       <Customers/>
-      <Pet/>
+      {/*<Pet/>*/}
     </ApolloProvider>
   )
 }
