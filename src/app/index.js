@@ -7,8 +7,7 @@ import {client} from './init/client'
 
 // Component
 // import {Pet} from './bus/pet'
-// import {Customers} from "./bus/Customer";
-import {LogIn} from "./bus/Customer/login";
+import {Customers} from "./bus/Customer";
 
 
 
@@ -16,8 +15,7 @@ export const App = () => {
 
   return (
     <ApolloProvider client={client}>
-      <LogIn/>
-      {/*<Customers/>*/}
+      <Customers/>
       {/*<Pet/>*/}
     </ApolloProvider>
   )

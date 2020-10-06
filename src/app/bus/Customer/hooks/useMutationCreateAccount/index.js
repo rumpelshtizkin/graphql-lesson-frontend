@@ -15,31 +15,40 @@ export const useCustomer = () => {
     }
   });
 
-  const handleChange = (event) => {
-    event.persist();
-    setValues((prevValues) => ({
-      account: {
-        ...prevValues.account,
-        [event.target.name]: event.target.value,
+  // const handleChange = (event) => {
+  //   event.persist();
+  //
+  //   setValues((prevValues) => ({
+  //     account: {
+  //       ...prevValues.account,
+  //       [event.target.name]: event.target.value,
+  //     }
+  //   }));
+  // };
+
+
+  const handleChange = event => {
+    setValues({
+        ...values, account: {[event.target.name]: event.target.value}
       }
-    }));
-  };
-
-  const save = () => {
-    const {account} = values;
-
-    addUser({
-      variables: {
-        account
-      }
-    })
-  };
-
-  return {
-    handleChange,
-    loading,
-    error,
-    save,
-    createdAccount: data && data.createAccount
+    )
   }
-};
+
+    const save = () => {
+      const {account} = values;
+
+      addUser({
+        variables: {
+          account
+        }
+      })
+    };
+
+    return {
+      handleChange,
+      loading,
+      error,
+      save,
+      createdAccount: data && data.createAccount
+    }
+  };
